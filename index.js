@@ -2,11 +2,11 @@ const searchFirstButton=document.getElementsByClassName('.btn-primary')[0]
 const searchSecButton=document.getElementsByClassName('.btn-secondary')[0]
 
 
-const Api_key='UjEAwYw8tNHEocupamN4s1vSQJDPLQKEU2oyeK2RhJjkmk3bER4kbaR6'
+const Api_key=
 const getImg=function(query){
-    fetch('https://api.pexels.com/v1/search?query=' + query,{
+    fetch('' + query,{
         headers:{
-        Authorization: Api_key}})
+        Authorization: }})
     .then((response)=>{
         if (response.ok){
             return response.json()
