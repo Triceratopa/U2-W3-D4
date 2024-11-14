@@ -16,6 +16,10 @@ const getImg=function(query){
     })
     .then((risultato)=>{
      console.log(risultato)
+     const allImg=document.querySelectorAll('.card img')
+     allImg.forEach(img=>{
+        img.src=
+     })
     })
     .catch((err)=> {
         console.log('no no',err)
